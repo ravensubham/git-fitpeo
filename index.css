@@ -1,0 +1,211 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1c1c1e;
+  color: #fff;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 80px;
+  background-color: #2c2c2e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.sidebar .logo {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.sidebar .menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar .menu-item {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.dashboard {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+}
+
+.user-icons {
+  display: flex;
+  align-items: center;
+}
+
+.user-icons .icon {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.top, .bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dashboard-card {
+  background-color: #2c2c2e;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-card .card-icon {
+  font-size: 2em;
+  margin-right: 20px;
+}
+
+.dashboard-card .card-info {
+  flex: 1;
+}
+
+.dashboard-card .card-info h4 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.dashboard-card .card-info p {
+  margin: 5px 0 10px;
+  font-size: 1.5em;
+}
+
+.dashboard-card .card-info .positive {
+  color: #4caf50;
+}
+
+.dashboard-card .card-info .negative {
+  color: #f44336;
+}
+
+.activity-chart, .recent-orders, .customer-feedback {
+  background-color: #2c2c2e;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.activity-chart h3, .recent-orders h3, .customer-feedback h3 {
+  margin: 0 0 20px;
+}
+
+.chart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar {
+  width: 10px;
+  background-color: #4caf50;
+}
+
+.recent-orders ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recent-orders li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #3a3a3c;
+}
+
+.recent-orders .order-header {
+  font-weight: bold;
+}
+
+.recent-orders .order-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.recent-orders .delivered {
+  color: #4caf50;
+}
+
+.recent-orders .cancelled {
+  color: #f44336;
+}
+
+.recent-orders .pending {
+  color: #ff9800;
+}
+
+.recent-orders img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.customer-feedback .feedback {
+  margin-bottom: 20px;
+}
+
+.customer-feedback .feedback-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customer-feedback .feedback-name {
+  font-weight: bold;
+}
+
+.customer-feedback .feedback-rating {
+  color: #ffeb3b;
+}
+
+.customer-feedback img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+
+.user-icons img{
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
